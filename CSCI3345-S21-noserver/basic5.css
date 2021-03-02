@@ -1,0 +1,25 @@
+body {
+  background-color: green;
+}
+
+* {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  text-shadow: 2px 2px 5px rgb(166, 185, 54);
+}
+
+p:hover {
+    transform: rotate(30deg) scale(1.2);
+    transition: transform 500ms ease;
+    zoom:99%;
+}
+
+h1, h2, h3 {
+    background-color: black;
+    color: navy;
+}
+
+h4, h5, h6 {
+    background-color: black;
+    color: hotpink;
+    
+}

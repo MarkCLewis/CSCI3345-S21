@@ -1,0 +1,39 @@
+/* Caden R. Young, Paul C. Abila, Arjun Thakar, Alexandra N. Walker */
+
+body {
+    background: pink;
+}
+h1 {
+    color: orangered;
+}
+h2 {
+    color: blueviolet
+}
+img{
+    border-radius: 100%;
+    box-shadow: 0 0 10px black;
+}
+
+img.rotate {
+    animation: rotation 1s infinite linear;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);l
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+p{
+    font: 18px Times, serif;
+    font-size: smaller;
+}
+
+button {
+    background-color: blue;
+    border: 2px solid green;
+    border-radius: 8px;
+}

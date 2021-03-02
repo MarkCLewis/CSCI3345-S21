@@ -1,0 +1,69 @@
+/* Hans E. Fulton, Sabrina R. Whitney, Benjamin J. Malik, Emerson E. Spradling */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Hanalei&display=swap');
+
+body {
+    background-color: rgb(21, 100, 40);
+    font-family: 'Hanalei', cursive;
+    font-weight: 'bold';
+    color: red;
+}
+
+div {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    border-top-color:red;
+    border-bottom-color:blue;
+    padding: 10px;
+    left: 200px;
+    box-shadow: 4px 4px 8px #000;
+}
+
+h1 {
+    font-family: 'DM Serif Text', serif;
+    color: orange;
+}
+
+img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 4px solid blue;
+    transition: transform 2s;
+    transition-timing-function: ease;
+    left: 50%;
+    display: block;
+}
+
+img:hover{
+  transform: scale(2);
+  transform: rotate(20deg);
+}
+
+#MyText {
+    font-size: 75%; 
+    text-align: right; 
+    font-family: papyrus;
+    letter-spacing: 1.5px;    
+}
+
+#ourgrouptext {
+    font-size:120%;
+    font-stretch: 'ultra-condensed';
+    font-weight: bold;
+}
+
+button {
+    font-family: 'Hanalei', cursive;
+    background-color: pink;
+    color: black;
+    padding: 1em;
+    border-radius: 35%;
+    border: 4px dotted black; 
+    outline: none;
+}
+
+button:hover {
+    padding: 3em;
+    background-color: rgb(21, 100, 40);
+    transition: padding 2s, background-color 2s;
+    cursor: pointer;
+}

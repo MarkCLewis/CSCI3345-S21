@@ -1,0 +1,32 @@
+.heading {
+    text-align: center;
+    background-color: lightgray;
+    color: black;    
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(1, 1, 77);
+    color: white;
+    font-size: 22px;
+}
+
+strong {
+    text-decoration: underline;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: lightgray;
+}
+
+h3 { 
+    color: #ffffcc;
+}
+
+.orderedlist h3 {
+    color: lightblue;
+}

@@ -1,0 +1,63 @@
+/* Connor, Christian, Turner, Dane */
+
+body{
+    background-size: cover;
+    background-color: rgba(233, 199, 49, 0.842);
+}
+
+* + * {
+    line-height:1.333;
+}
+
+small{
+    font-size:8pt;
+    margin:1em 0em 0em 2em;
+    display:inline-block;
+}
+
+span{
+    color:white; 
+    font-size:8pt;
+    margin:1em 0em 0em 0em;
+}
+
+a{
+    color:white;
+    text-decoration:none;
+}
+
+a:hover{
+border-bottom: 1px solid white;
+}
+small:hover {
+    color: red;
+    size: 20%;
+}
+b{
+    font-weight:500;
+}
+
+h1, h2{
+    margin-top:3em;
+    font-size:14pt;
+    color: black;
+}
+
+ul{
+    margin:0px;
+    padding-left:2em;
+}
+
+li{
+    list-style-type:circle;
+    margin-bottom:1em;
+    text-decoration: none;
+}
+
+.newtext {
+    margin-top: 5em;
+    font-size: 35pt;
+    color: rgb(182, 255, 0);
+}
+
+.rainbow { background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red); -webkit-background-clip: text; color: transparent; }.rainbow { background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red); -webkit-background-clip: text; color: transparent; }.rainbow { background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red); -webkit-background-clip: text; color: transparent; }.rainbow { background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red); -webkit-background-clip: text; color: transparent; }.rainbow { background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red); -webkit-background-clip: text; color: transparent; }.rainbow { background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red); -webkit-background-clip: text; color: transparent; }.rainbow { background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red); -webkit-background-clip: text; color: transparent; }
